@@ -1,0 +1,20 @@
+{
+  "framework": "MS-XAI-Load-Opt",
+  "forecast_definition": "At forecast origin t, predict electricity consumption at t+1",
+  "selected_model": "XGBoost_OptunaTPE",
+  "selected_family": "XGBoost",
+  "selected_optimizer": "OptunaTPE",
+  "selected_mean_CV_RMSE_MWh": 599.1688804802218,
+  "selected_std_CV_RMSE_MWh": 202.36920646562947,
+  "independent_test_year": 2023,
+  "main_feature_count": 133,
+  "conservative_feature_count": 113,
+  "retained_OWID_indicator_count": 26,
+  "test_MAE_MWh": 332.32682094570487,
+  "test_RMSE_MWh": 441.85269050860296,
+  "test_MAPE_pct": 0.9026318621758042,
+  "test_sMAPE_pct": 0.9025872955552806,
+  "test_R2": 0.9944442894176636,
+  "test_MASE": 0.20077926301563895,
+  "test_Peak_MAE_top10_MWh": 495.72106628139267
+}

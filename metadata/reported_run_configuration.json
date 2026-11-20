@@ -1,0 +1,60 @@
+{
+  "random_state": 42,
+  "target": "consumption_MWh",
+  "forecast_horizon_hours": 1,
+  "timestamp_role": "target_delivery_hour",
+  "assumed_timezone": "Europe/Istanbul",
+  "test_year": 2023,
+  "pretest_end_year": 2022,
+  "cv_validation_years": [
+    2020,
+    2021,
+    2022
+  ],
+  "target_lags": [
+    1,
+    2,
+    3,
+    24,
+    48,
+    72,
+    168
+  ],
+  "rolling_windows": [
+    3,
+    6,
+    12,
+    24,
+    48,
+    168
+  ],
+  "operational_lags": [
+    1,
+    24,
+    168
+  ],
+  "conservative_operational_lags": [
+    24,
+    168
+  ],
+  "main_availability_scenario": "lag1_operational_assumed_available_at_forecast_origin",
+  "grid_combinations": 24,
+  "random_search_trials": 24,
+  "optuna_xgb_trials": 30,
+  "optuna_lgbm_trials": 30,
+  "de_population_size": 8,
+  "de_iterations": 8,
+  "run_prophet": true,
+  "run_deep_learning": true,
+  "dl_window": 168,
+  "dl_max_epochs": 50,
+  "dl_patience": 6,
+  "hac_lags_primary": 24,
+  "bootstrap_block_hours": 24,
+  "bootstrap_reps": 2000,
+  "conformal_nominal_levels": [
+    0.8,
+    0.9,
+    0.95
+  ]
+}

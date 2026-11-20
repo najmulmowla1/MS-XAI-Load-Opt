@@ -1,0 +1,231 @@
+[
+  {
+    "cell": 1,
+    "title": "Install analysis dependencies",
+    "script": "steps/01_install_analysis_dependencies.sh",
+    "code_lines": 3,
+    "type": "code"
+  },
+  {
+    "cell": 2,
+    "title": "Imports and experiment configuration",
+    "script": "steps/02_imports_and_experiment_configuration.py",
+    "code_lines": 178,
+    "type": "code"
+  },
+  {
+    "cell": 3,
+    "title": "Common data and evaluation utilities",
+    "script": "steps/03_common_data_and_evaluation_utilities.py",
+    "code_lines": 110,
+    "type": "code"
+  },
+  {
+    "cell": 4,
+    "title": "Load input data and record environment metadata",
+    "script": "steps/04_load_input_data_and_record_environment_metadata.py",
+    "code_lines": 45,
+    "type": "code"
+  },
+  {
+    "cell": 5,
+    "title": "Audit hourly observations and market prices",
+    "script": "steps/05_audit_hourly_observations_and_market_prices.py",
+    "code_lines": 72,
+    "type": "code"
+  },
+  {
+    "cell": 6,
+    "title": "Audit annual energy indicators",
+    "script": "steps/06_audit_annual_energy_indicators.py",
+    "code_lines": 69,
+    "type": "code"
+  },
+  {
+    "cell": 7,
+    "title": "Construct forecast and calendar alignment",
+    "script": "steps/07_construct_forecast_and_calendar_alignment.py",
+    "code_lines": 64,
+    "type": "code"
+  },
+  {
+    "cell": 8,
+    "title": "Construct lagged and rolling predictors",
+    "script": "steps/08_construct_lagged_and_rolling_predictors.py",
+    "code_lines": 115,
+    "type": "code"
+  },
+  {
+    "cell": 9,
+    "title": "Assess predictor dependence and descriptive statistics",
+    "script": "steps/09_assess_predictor_dependence_and_descriptive_stat.py",
+    "code_lines": 50,
+    "type": "code"
+  },
+  {
+    "cell": 10,
+    "title": "Define chronological validation folds",
+    "script": "steps/10_define_chronological_validation_folds.py",
+    "code_lines": 35,
+    "type": "code"
+  },
+  {
+    "cell": 11,
+    "title": "Define model factories and hyperparameter searches",
+    "script": "steps/11_define_model_factories_and_hyperparameter_search.py",
+    "code_lines": 122,
+    "type": "code"
+  },
+  {
+    "cell": 12,
+    "title": "Evaluate baseline models by temporal cross-validation",
+    "script": "steps/12_evaluate_baseline_models_by_temporal_cross_valid.py",
+    "code_lines": 37,
+    "type": "code"
+  },
+  {
+    "cell": 13,
+    "title": "Evaluate predictor groups by temporal cross-validation",
+    "script": "steps/13_evaluate_predictor_groups_by_temporal_cross_vali.py",
+    "code_lines": 41,
+    "type": "code"
+  },
+  {
+    "cell": 14,
+    "title": "Optimize XGBoost with grid and random search",
+    "script": "steps/14_optimize_xgboost_with_grid_and_random_search.py",
+    "code_lines": 55,
+    "type": "code"
+  },
+  {
+    "cell": 15,
+    "title": "Optimize tree models with Optuna TPE",
+    "script": "steps/15_optimize_tree_models_with_optuna_tpe.py",
+    "code_lines": 60,
+    "type": "code"
+  },
+  {
+    "cell": 16,
+    "title": "Optimize XGBoost with differential evolution",
+    "script": "steps/16_optimize_xgboost_with_differential_evolution.py",
+    "code_lines": 58,
+    "type": "code"
+  },
+  {
+    "cell": 17,
+    "title": "Select a forecasting model using validation only",
+    "script": "steps/17_select_a_forecasting_model_using_validation_only.py",
+    "code_lines": 28,
+    "type": "code"
+  },
+  {
+    "cell": 18,
+    "title": "Fit selected model and assess held-out observations",
+    "script": "steps/18_fit_selected_model_and_assess_held_out_observati.py",
+    "code_lines": 33,
+    "type": "code"
+  },
+  {
+    "cell": 19,
+    "title": "Evaluate final benchmark predictions",
+    "script": "steps/19_evaluate_final_benchmark_predictions.py",
+    "code_lines": 38,
+    "type": "code"
+  },
+  {
+    "cell": 20,
+    "title": "Evaluate Prophet benchmarks",
+    "script": "steps/20_evaluate_prophet_benchmarks.py",
+    "code_lines": 52,
+    "type": "code"
+  },
+  {
+    "cell": 21,
+    "title": "Specify deep-learning benchmark settings",
+    "script": "steps/21_specify_deep_learning_benchmark_settings.py",
+    "code_lines": 19,
+    "type": "code"
+  },
+  {
+    "cell": 22,
+    "title": "Train and evaluate sequence-based benchmarks",
+    "script": "steps/22_train_and_evaluate_sequence_based_benchmarks.py",
+    "code_lines": 95,
+    "type": "code"
+  },
+  {
+    "cell": 23,
+    "title": "Consolidate model and ablation results",
+    "script": "steps/23_consolidate_model_and_ablation_results.py",
+    "code_lines": 21,
+    "type": "code"
+  },
+  {
+    "cell": 24,
+    "title": "Estimate uncertainty of evaluation metrics",
+    "script": "steps/24_estimate_uncertainty_of_evaluation_metrics.py",
+    "code_lines": 39,
+    "type": "code"
+  },
+  {
+    "cell": 25,
+    "title": "Run dependence-aware predictive comparison tests",
+    "script": "steps/25_run_dependence_aware_predictive_comparison_tests.py",
+    "code_lines": 57,
+    "type": "code"
+  },
+  {
+    "cell": 26,
+    "title": "Construct conformal prediction intervals",
+    "script": "steps/26_construct_conformal_prediction_intervals.py",
+    "code_lines": 52,
+    "type": "code"
+  },
+  {
+    "cell": 27,
+    "title": "Explain the selected model using SHAP",
+    "script": "steps/27_explain_the_selected_model_using_shap.py",
+    "code_lines": 32,
+    "type": "code"
+  },
+  {
+    "cell": 28,
+    "title": "Stratify forecast errors by operational conditions",
+    "script": "steps/28_stratify_forecast_errors_by_operational_conditio.py",
+    "code_lines": 54,
+    "type": "code"
+  },
+  {
+    "cell": 29,
+    "title": "Generate evaluation figures",
+    "script": "steps/29_generate_evaluation_figures.py",
+    "code_lines": 103,
+    "type": "code"
+  },
+  {
+    "cell": 30,
+    "title": "Index analysis artifacts",
+    "script": "steps/30_index_analysis_artifacts.py",
+    "code_lines": 22,
+    "type": "code"
+  },
+  {
+    "cell": 31,
+    "title": "Export the evidence workbook",
+    "script": "steps/31_export_the_evidence_workbook.py",
+    "code_lines": 162,
+    "type": "code"
+  },
+  {
+    "cell": 32,
+    "title": "Package generated results",
+    "script": "steps/32_package_generated_results.py",
+    "code_lines": 17,
+    "type": "code"
+  },
+  {
+    "cell": 33,
+    "title": "Execution and interpretation",
+    "type": "markdown"
+  }
+]

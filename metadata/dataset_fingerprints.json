@@ -1,0 +1,30 @@
+{
+  "purpose": "Exact input snapshot verification for the previously completed MS-XAI-Load-Opt experiment",
+  "datasets": {
+    "hourly_energy_data.csv": {
+      "sha256": "3af0c523499328ac131abeddc92cf3f6ac0925a04d30002f8db3e60427159310",
+      "bytes": 8171817,
+      "rows": 52584,
+      "columns": 22,
+      "first_timestamp": "01:01:2018:00:00",
+      "last_timestamp": "31:12:2023:23:00",
+      "time_column": "time",
+      "source_reference": "https://www.kaggle.com/datasets/ahmetzamanis/energy-consumption-and-pricing-trkiye-2018-2023"
+    },
+    "owid_energy_data.csv": {
+      "sha256": "09747efe41a81a20a58fd8bfe3d88e4db574c772f61719195d52270bc6582336",
+      "bytes": 7943265,
+      "rows": 23377,
+      "columns": 130,
+      "target_country": "Turkey",
+      "target_country_rows": 126,
+      "target_country_years": [
+        1900,
+        2025
+      ],
+      "source_reference": "https://github.com/owid/energy-data"
+    }
+  },
+  "verification": "Supplied CSV hashes and file sizes match the fingerprints recorded in the earlier completed execution.",
+  "research_outputs": "Reference metrics originate from an earlier completed execution; a fresh end-to-end run of the scripts-only release has not been demonstrated."
+}

@@ -1,0 +1,17 @@
+{
+  "source_notebook_description": "uploaded master research notebook",
+  "source_notebook_sha256": "eda72e5b396e629e364e6c36a0618bdb67a8f91f957c3b259b802ad3584ba5e1",
+  "source_summary_sha256": "275da062ea1850c9b72b061cbd76ed2c7ef04d34510299a3d4a13afdee37ad1d",
+  "source_config_sha256": "37637eebced1e701fbdf094a3eca7cb1359759c61426c614a321669ed781161e",
+  "notebook_cells_original": 33,
+  "executable_cells": 32,
+  "result_metadata_provenance": "user-provided prior execution output; not independently rerun",
+  "source_transformations": [
+    "converted original executable cells into 31 ordered Python scripts and one dependency-installation script",
+    "used publication-neutral labels in scripts and result exports",
+    "added optional environment-variable input and output paths",
+    "retained supplied reference summary, configuration and original source hashes",
+    "excluded notebook, stored outputs and original input CSVs from the public package"
+  ],
+  "published_artifact": "numbered scripts and shared-namespace runner only; no notebook included"
+}
