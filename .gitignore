@@ -1,0 +1,26 @@
+# Input datasets and outputs are deliberately not committed.
+/data/*
+!/data/README.md
+/results/
+/outputs/
+*.zip
+*.xlsx
+*.parquet
+*.pkl
+*.joblib
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.cache/
+.DS_Store
+*.log
+.env
+.env.*
+*.key
+*.pem
+
+# Publication is source-script-only; do not add notebook files.
+*.ipynb
+.venv/
+venv/
+*.csv

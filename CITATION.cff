@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this research code, cite the associated manuscript."
+title: "MS-XAI-Load-Opt: Leakage-Aware Electricity Consumption Forecasting and Evaluation"
+type: software
+authors:
+  - family-names: Mowla
+    given-names: "Md. Najmul"
+  - family-names: Ozdil
+    given-names: "N. Filiz (Tumen)"
